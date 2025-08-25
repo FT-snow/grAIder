@@ -74,7 +74,7 @@ Feedback: xyz
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          model: 'mistralai/mistral-7b-instruct:free',
+          model: 'mistralai/mixtral-8x7b-instruct',
           messages,
           max_tokens: 10000,
           temperature: 0.3,
